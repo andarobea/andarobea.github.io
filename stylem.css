@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff00;
+  color: white;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(41, 39, 37, 0.5)), url(https://www.schoenbrunn.at/fileadmin/_processed_/4/9/csm_Schloss-Schoenbrunn-Shop_Group_Center_d0882727ab.jpg);
+    opacity: 90%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.heading h1{
+    font-family: 'Goudy Old Style';
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 200px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.list {
+    list-style:decimal;
+    display: inline-block;
+    position: relative;  
+    color: #ffffff;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+    font-size: 30px;
+    text-align: left;
+    margin-top: -100px;
+}
+
+.pagination {
+    margin-top: 180px;
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: rgb(252, 252, 252);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #ffffff39;
+    color: white;
+    border: 1px solid #000000;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
